@@ -8,5 +8,7 @@ module.exports = {
   pwa: {
     dest: "public",
     runtimeCaching,
+    register: true,
+    skipWaiting: true,
   },
 };
