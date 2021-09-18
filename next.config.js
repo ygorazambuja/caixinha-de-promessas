@@ -7,7 +7,6 @@ module.exports = {
   reactStrictMode: true,
   pwa: {
     dest: "public",
-    runtimeCaching,
     register: true,
     skipWaiting: true,
   },
