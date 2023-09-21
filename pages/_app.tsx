@@ -10,10 +10,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider enableSystem={true} attribute="class">
       <Head>
-        <meta name="application-name" content="next PWA demo" />
+        <meta name="application-name" content="Caixinha de Promessas" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="PWA App" />
+        <meta name="apple-mobile-web-app-title" content="Caixinha de Promessas" />
         <meta name="description" content="Caixinha de Promessas" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
