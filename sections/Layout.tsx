@@ -101,14 +101,14 @@ const Layout = () => {
                 title="Caixinha de Promessas"
                 separator=" "
                 url={encodeURI(
-                  `https://caixinhapromessas.vercel.app/versiculo/${data.localizacao}`
+                  `https://caixinha-de-promessas.vercel.app/versiculo/${data.localizacao}`
                 )}
               >
                 <WhatsappIcon size={32} round />
               </WhatsappShareButton>
               <FacebookShareButton
                 url={encodeURI(
-                  `https://caixinhapromessas.vercel.app/versiculo/${data.localizacao}`
+                  `https://caixinha-de-promessas.vercel.app/versiculo/${data.localizacao}`
                 )}
                 hashtag="Caixinha de Promessas"
               >
@@ -116,7 +116,7 @@ const Layout = () => {
               </FacebookShareButton>
               <TwitterShareButton
                 url={encodeURI(
-                  `https://caixinhapromessas.vercel.app/versiculo/${data.localizacao}`
+                  `https://caixinha-de-promessas.vercel.app/versiculo/${data.localizacao}`
                 )}
               >
                 <XIcon size={32} round />

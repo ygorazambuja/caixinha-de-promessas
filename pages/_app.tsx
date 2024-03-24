@@ -1,10 +1,9 @@
-import "../styles/globals.css";
+import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import { ThemeProvider } from "next-themes";
+import "../styles/globals.css";
 
 import "tailwindcss/tailwind.css";
-import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -13,7 +12,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="application-name" content="Caixinha de Promessas" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Caixinha de Promessas" />
+        <meta
+          name="apple-mobile-web-app-title"
+          content="Caixinha de Promessas"
+        />
         <meta name="description" content="Caixinha de Promessas" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
